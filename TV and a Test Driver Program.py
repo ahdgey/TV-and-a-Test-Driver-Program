@@ -11,4 +11,9 @@ print("\033[1;32m\nHello! Your programmers name is Alexza Jean.")
 print("\033[1;32m\nShe's from BSCPE 1-4")
 print("-" * 90)
 
+class TV:
+
+    def __init__(self):
+    
+    
 
