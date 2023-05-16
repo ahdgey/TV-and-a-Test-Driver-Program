@@ -25,6 +25,18 @@ class TV:
         #on: bool (Indicates whether this TV is on/off)
         self.on = False
 
+    #Methods of this UML Class Diagram
+    #turnON(): None (Turns on this TV.)
+    #turnOFF(): None (Turns off this TV.)
+    #getChannel(): int (Returns the channel for this TV.)
+    #setChannel(channel: int): None (Sets a new channel for this TV.)
+    #getVolume(): int (Gets the volume for this TV.)
+    #setVolume(volumelevel: int):  None (Sets a new volume level for this TV.)
+    #channelUp(): None (Increases the channel number by 1.)
+    #channelDown(): None (Decreases the channel number by 1.)
+    #volumeUp(): None (Increases the volume level by 1.)
+    #volumeDown(): None (Decreases the volume level by 1.)
+    
     
     
     
