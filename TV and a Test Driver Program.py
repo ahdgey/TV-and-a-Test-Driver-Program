@@ -13,7 +13,10 @@ print("-" * 90)
 
 class TV:
 
-    def __init__(self):
+    #Constructor
+    #channel: int (The current channel (1 to 120) of this TV.)
+    #volumelevel: int (The current volume (1 to 7) of this TV.)
+    #on: bool (Indicates whether this TV is on/off)
     
     
 
