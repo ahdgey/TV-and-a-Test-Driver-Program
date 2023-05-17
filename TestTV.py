@@ -19,7 +19,7 @@ def main():
     tv1.set_volume_level(3)
 
     #Print the channel and volume level that is set for TV 1
-    print("tv1's channel", tv1.get_channel(), "and volume level is", tv1.get_volume_level())
+    print("\033[0;33m\ntv1's channel", tv1.get_channel(), "and volume level is", tv1.get_volume_level())
 
 
     #tv2's channel is 3 and volume level is 2
@@ -37,7 +37,8 @@ def main():
     tv2.set_volume_level(2)
 
     #Print the chennel and volume level that is set for TV 2
-    print("tv2's channel is",tv2.get_channel(), "and volume level is", tv2.get_volume_level())
+    print("\033[0;31m\ntv2's channel is",tv2.get_channel(), "and volume level is", tv2.get_volume_level())
+    print("\033[1;37m~" * 90)
 
 if __name__ == "__main__":
         main()
